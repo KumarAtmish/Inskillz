@@ -1,0 +1,25 @@
+.navbar navbar-light bg-light {
+     top: 0px;
+     left: 0px;
+     width: 1440px;
+     height: 45px;
+     border: 1px solid #707070;
+     opacity: 1;
+
+}
+.icon{
+    color: #8c0f1b;
+    top: 100px;
+    left: 179px;
+    width: 98px;
+    height: 25px;
+}
+.navbar-light .navbar-brand{
+    color: #8c0f1b;
+}
+.fa fa-history{
+    top: 13px;
+    left: 802px;
+    width: 135px;
+    height: 24px;
+}

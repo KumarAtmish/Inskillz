@@ -1,0 +1,54 @@
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+.menu-link{
+  color: white;
+  text-decoration: none;
+
+}
+.menu-link:hover{
+  color:orangered;
+  text-decoration: none;
+}
+
+
+.text {
+  margin-top: 30px;
+  float:right;
+}
+text li {
+  top: 97px;
+  width: 655px;
+  height: 24px;
+  
+}
+.logo img{
+    float:left;
+    top: 56px;
+    left: 142px;
+    width: 212px;
+    height: 106px;
+}
+.nav{
+    top: 97px;
+    left: 649px;
+    width: 655px;
+    height: 24px;
+}
+
+ul li{
+  display: inline-block;
+  padding:10px;
+  font-size:20px; 
+  font-family:raleway;
+  color: #fff;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
