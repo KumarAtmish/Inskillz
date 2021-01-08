@@ -3,7 +3,7 @@ import edu from "./image/edu.png";
 import icon_1 from "./image/icon_1.png"
 import icon_2 from "./image/icon_2.png"
 import icon_3 from "./image/icon_3.png"
-import "./Education.css"
+import "./Education.css";
 
 export default function Education() {
     return (
@@ -15,7 +15,7 @@ export default function Education() {
                 </div>
                 <div className="col-md-6">
                  <div className="card-body">
-                   <h1 className="card-title">Education At Its Best</h1>
+                   <h3 className="card-title">Education At Its Best</h3>
                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                    <div className="row">
                     <img className="col-md-2 p-3" src={icon_1}/>

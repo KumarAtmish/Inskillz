@@ -14,58 +14,58 @@ export default function Featured() {
                  <h3 className="card-title text-center">Highlighted Featured Courses</h3>
                  <div className="m-5">
                      <p className="card-subtitle mb-2 text-muted text-right">View All</p>
-                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group1} class="card-img-top" alt="..." />
+                     <div className="row row-cols-1 row-cols-md-3 g-4">
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group1} className="card-img-top" alt="..." />
 
                              </div>
                          </div>
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group2} class="card-img-top" alt="..." />
-                                 <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                                      <h2 class="card-title text-center">Graphic Design</h2>
-                                      <h5 class="card-text text-center">How To Become Freat Graphic Designer in 7 Days</h5>
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group2} className="card-img-top" alt="..." />
+                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                      <h3 className="card-title text-center"><span className="graph">Graphic Design</span></h3>
+                                      <h5 className="card-text text-center"><span className="texts">How To Become Freat Graphic Designer in 7 Days</span></h5>
                                  </div>
                              </div>
                          </div>
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group3} class="card-img-top" alt="..." />
-                                 <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                                      <h2 class="card-title text-center">Graphic Design</h2>
-                                      <h5 class="card-text text-center">How To Become Freat Graphic Designer in 7 Days</h5>
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group3} className="card-img-top" alt="..." />
+                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                      <h2 className="card-title text-center"><span className="graph">Graphic Design</span></h2>
+                                      <h5 className="card-text text-center"><span className="texts">How To Become Freat Graphic Designer in 7 Days</span></h5>
                                  </div>
                              </div>
                          </div>
                      </div>
 
-                     <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group4} class="card-img-top" alt="..." />
-                                 <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                                      <h2 class="card-title text-center">Graphic Design</h2>
-                                      <h5 class="card-text text-center">How To Become Freat Graphic Designer in 7 Days</h5>
+                     <div className="row row-cols-1 row-cols-md-3 g-4 py-5">
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group4} className="card-img-top" alt="..." />
+                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                      <h2 className="card-title text-center"><span className="graph">Graphic Design</span></h2>
+                                      <h5 className="card-text text-center"><span className="texts">How To Become Freat Graphic Designer in 7 Days</span></h5>
                                  </div>
                              </div>
                          </div>
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group5} class="card-img-top" alt="..." />
-                                 <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                                      <h2 class="card-title text-center">Graphic Design</h2>
-                                      <h5 class="card-text text-center">How To Become Freat Graphic Designer in 7 Days</h5>
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group5} className="card-img-top" alt="..." />
+                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                      <h2 className="card-title text-center"><span className="graph">Graphic Design</span></h2>
+                                      <h5 className="card-text text-center"><span className="texts">How To Become Freat Graphic Designer in 7 Days</span></h5>
                                  </div>
                              </div>
                          </div>
-                         <div class="col">
-                             <div class="card h-100">
-                                 <img src={Group6} class="card-img-top" alt="..." />
-                                 <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-                                      <h2 class="card-title text-center">Graphic Design</h2>
-                                      <h5 class="card-text text-center">How To Become Freat Graphic Designer in 7 Days</h5>
+                         <div className="col">
+                             <div className="card h-100">
+                                 <img src={Group6} className="card-img-top" alt="..." />
+                                 <div className="card-img-overlay text-white d-flex flex-column justify-content-center">
+                                      <h2 className="card-title text-center"><span className="graph">Graphic Design</span></h2>
+                                      <h5 className="card-text text-center"><span className="texts">How To Become Freat Graphic Designer in 7 Days</span></h5>
                                  </div>
                              </div>
                          </div>

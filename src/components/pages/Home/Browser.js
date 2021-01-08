@@ -13,37 +13,36 @@ export default function Browser() {
               <div className="card-body">
                 <h3 className="card-title text-center">Browse Courses By  Category</h3>
                  <div className="container" >
-
-                     <div className="container m-5" >
-                        <div className="row">
     
                         <div className="container">
                            <div className="row" >
                               <div className="col-2 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
-                              <img src={icon1} className="rounded float-start" alt="..." />
-                              <p className="card-title text-center" >Business</p>
+                                <button><img src={icon1} className="rounded float-start" alt="..." /></button>
+                                <p className="card-title text-center" >Business</p>
                               </div>
                               <div className="col-2 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
-                              <img src={icon2} className="rounded mx-auto d-block" alt="..."/>
-                              <p className="card-title text-center">Business</p>
+                                <img src={icon2} className="rounded mx-auto d-block" alt="..."/>
+                                <p className="card-title text-center">Business</p>
                               </div>
                               <div className="col-2 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
-                              <img src={icon3} className="rounded mx-auto d-block" alt="..."/>
-                              <p className="card-title text-center">Business</p>
+                                <img src={icon3} className="rounded mx-auto d-block" alt="..."/>
+                                <p className="card-title text-center">Business</p>
                               </div>
                               <div className="col-2 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
-                              <img src={icon4} className="rounded mx-auto d-block" alt="..."/>
-                              <p className="card-title text-center">Business</p>
+                                <img src={icon4} className="rounded mx-auto d-block" alt="..."/>
+                                <p className="card-title text-center">Business</p>
                               </div>
                               <div className="col-2 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
-                              <img src={icon5} className="rounded mx-auto d-block" alt="..."/>
-                              <p className="card-title text-center">Business</p>
+                                <img src={icon5} className="rounded mx-auto d-block" alt="..."/>
+                                <p className="card-title text-center">Business</p>
+                              </div>
+                              <div className="col-1 shadow-none p-3 mb-5 bg-light rounded text-center m-1">
+                                <button className="but" type="submit"><h5>+</h5>View All</button>
                               </div>
                            </div>
                        </div>
 
-                        </div>
-                     </div>
+                        
                  </div>
                </div>
           </div>

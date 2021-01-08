@@ -4,7 +4,7 @@
      width: 1440px;
      height: 45px;
      border: 1px solid #707070;
-     opacity: 1;
+    
 
 }
 .icon{
@@ -22,4 +22,9 @@
     left: 802px;
     width: 135px;
     height: 24px;
+}
+@media screen and ( max-width: 768px ){
+    .navbar-brand {
+        width: auto;
+   }
 }

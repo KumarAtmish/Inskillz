@@ -4,3 +4,8 @@
 .col-2{
     color: rgb(66, 114, 136);
 }
+.but{
+    background-color: rgb(38, 138, 204);
+    border: none;
+    border-radius: 5px;
+}

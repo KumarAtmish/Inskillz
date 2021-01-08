@@ -1,54 +1,47 @@
-*{transition:all 0.3s ease-in-out;}
-
-.container{
-  clear:both;
-  overflow:auto;
-}
-.menu-link{
-  color: white;
-  text-decoration: none;
-
-}
-.menu-link:hover{
-  color:orangered;
-  text-decoration: none;
+.navbar {
+  transition: all 0.4s;
 }
 
-
-.text {
-  margin-top: 30px;
-  float:right;
-}
-text li {
-  top: 97px;
-  width: 655px;
-  height: 24px;
-  
-}
-.logo img{
-    float:left;
-    top: 56px;
-    left: 142px;
-    width: 212px;
-    height: 106px;
-}
-.nav{
-    top: 97px;
-    left: 649px;
-    width: 655px;
-    height: 24px;
-}
-
-ul li{
-  display: inline-block;
-  padding:10px;
-  font-size:20px; 
-  font-family:raleway;
+.navbar .nav-link {
   color: #fff;
 }
 
-ul li:hover{
-  color:orange;
-  
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(80, 29, 175);
+  text-decoration: none;
 }
 
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+      background: #fff;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+      color: #555;
+  }
+}

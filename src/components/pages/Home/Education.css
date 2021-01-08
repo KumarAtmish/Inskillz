@@ -1,3 +1,9 @@
 .card mb-3{
     max-width: 540px;
 }
+card-title{
+    font-size: 30%;
+}
+card-text{
+    font-size:30%
+}
