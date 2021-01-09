@@ -17,19 +17,21 @@ export default function Education() {
                  <div className="card-body">
                    <h3 className="card-title">Education At Its Best</h3>
                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                   <div className="icons">
                    <div className="row">
                     <img className="col-md-2 p-3" src={icon_1}/>
-                    <strong className="col-md-4 m-5">Learn anything</strong>
+                    <span><h4 className="learn">Learn anything</h4></span>
                    </div>
                    <div className="row">
                     <img className="col-md-2 p-3" src={icon_2}/>
-                    <strong className="col-md-4 m-5">Talk to our instructors</strong>
+                    <span><h5 className="learn">Talk to our instructors</h5></span>
                    </div>
                    <div className="row">
                     <img className="col-md-2 p-3" src={icon_3}/>
-                    <strong className="col-md-4 m-5">Speak with others</strong>
+                    <span><h5 className="learn">Speak with others</h5></span>
                    </div>
                  </div>
+               </div>
                </div>
            </div>
        </div>

@@ -7,3 +7,39 @@ card-title{
 card-text{
     font-size:30%
 }
+@media screen and (max-width:424px){
+    .card-title{
+        text-align: center;
+    }
+}
+@media screen and (max-width:424px){
+    .card-text{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:424px){
+    .p-3{
+        width: 30%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:800px){
+    .p-3{
+        width: 30%;
+        text-align: center;
+    }
+}
+.learn{
+    padding-top: 20%;
+}
+@media screen and (max-width:800px){
+    .learn{
+        padding-top: 57%;
+    }
+}
+@media screen and (max-width:420px){
+    .learn{
+        padding-top: 20%;
+    }
+}
