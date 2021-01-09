@@ -2,15 +2,3 @@
     width: 100%;
     background-color: linear-gradient(#008080,#008080);
 }
-.btn {
-    text-align: end;
-    font-weight: 122;
-    font-size: 5px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 50px;
-    color: #fff;
-    background-color: #2e8ea1;
-    border: none;
-  }

@@ -10,18 +10,18 @@ import Group from "./image/Teacher/Group.png"
 export default function Teacher() {
     return (
         <div>
-         <div class="container">
-             <div class="title h1 text-center">Our Teachers</div>
+         <div className="container">
+             <h3 className="titl">Our Teachers</h3>
          </div>
 
-         <div class="container">
-             <div class="card float-left border shadow">
-                 <div class="row ">
-                     <div class="col-sm-5">
-                           <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+         <div className="container">
+             <div className="card float-left border shadow">
+                 <div className="row ">
+                     <div className="col-sm-5">
+                           <img className="d-block w-90 py-4 mx-1" src={Group} alt=""  />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                              <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>
@@ -37,13 +37,13 @@ export default function Teacher() {
                  </div>
              </div>
 
-             <div class="card float-right border shadow">
-                  <div class="row">
-                     <div class="col-sm-5">
-                         <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+             <div className="card float-right border shadow">
+                  <div className="row">
+                     <div className="col-sm-5">
+                         <img className="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                          <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>
@@ -58,14 +58,14 @@ export default function Teacher() {
              </div>
           </div>
 
-          <div class="container py-3">
-             <div class="card float-left border shadow">
-                 <div class="row ">
-                     <div class="col-sm-5">
-                           <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+          <div className="container py-3">
+             <div className="card float-left border shadow">
+                 <div className="row ">
+                     <div className="col-sm-5">
+                           <img className="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                              <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>
@@ -81,13 +81,13 @@ export default function Teacher() {
                  </div>
              </div>
 
-             <div class="card float-right border shadow">
-                  <div class="row">
-                     <div class="col-sm-5">
-                         <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+             <div className="card float-right border shadow">
+                  <div className="row">
+                     <div className="col-sm-5">
+                         <img className="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                          <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>
@@ -102,14 +102,14 @@ export default function Teacher() {
              </div>
           </div>
 
-          <div class="container py-3">
-             <div class="card float-left border shadow">
-                 <div class="row ">
-                     <div class="col-sm-5">
-                           <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+          <div className="container py-3">
+             <div className="card float-left border shadow">
+                 <div className="row ">
+                     <div className="col-sm-5">
+                           <img className="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                              <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>
@@ -125,13 +125,13 @@ export default function Teacher() {
                  </div>
              </div>
 
-             <div class="card float-right border shadow">
-                  <div class="row">
-                     <div class="col-sm-5">
-                         <img class="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
+             <div className="card float-right border shadow">
+                  <div className="row">
+                     <div className="col-sm-5">
+                         <img className="d-block w-90 py-4 mx-1" src={Group} alt="" style={{borderRadius: "50%"}} />
                      </div>
-                     <div class="col-sm-7">
-                         <div class="card-block">
+                     <div className="col-sm-7">
+                         <div className="card-block">
                          <h4>Velvet Vachon <span><img className="mx-3" src={logo} alt="" /></span></h4>
                              <strong className="head">Design Head</strong>
                              <p>

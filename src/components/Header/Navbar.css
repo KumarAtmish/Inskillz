@@ -23,8 +23,24 @@
     width: 135px;
     height: 24px;
 }
-@media screen and ( max-width: 768px ){
-    .navbar-brand {
-        width: auto;
-   }
+
+@media screen and (max-width:424px){
+    .navbar-brand{
+        font-size: 10px;
+        color: #8c0f1b;
+        text-align: center;
+    }
+}
+@media screen and (max-width:400px){
+    .navbar-brand{
+        font-size: 6px;
+        color: #8c0f1b;
+        text-align: center;
+    }
+}
+@media screen and (max-width:424px){
+    .icon{
+        font-size: 9px;
+        color: #8c0f1b;
+    }
 }

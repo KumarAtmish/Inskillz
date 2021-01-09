@@ -6,11 +6,10 @@ export default function Navbar() {
     return (
         <div>
           <nav className="navbar navbar-light bg-light">
-            <div className="container">
               <div className="icon">
-                 <i className="fa fa-facebook"/>
-                 <i className="fa fa-instagram m-1"/>
-                 <i className="fa fa-twitter m-1"/>
+                 <i className="fa fa-facebook" to="https://www.facebook.com/"/>
+                 <i className="fa fa-instagram m-1" to="https://www.instagram.com/"/>
+                 <i className="fa fa-twitter m-1" to="https://twitter.com/home"/>
               </div>
              <div className="navbar-brand">
                  <Link className="navbar-brand " to="#">
@@ -23,7 +22,6 @@ export default function Navbar() {
                  <i className="fa fa-globe">Login/Signup</i>
                  </Link>
              </div>
-            </div>
           </nav>
         </div>
     )

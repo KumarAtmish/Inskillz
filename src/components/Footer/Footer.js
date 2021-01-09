@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <div className="card mx-3">
             <footer className="footer-area footer--light">
   <div className="footer-big">
     {/*  start .container  */}
@@ -97,6 +96,5 @@ export default function Footer() {
 
  
 </footer>
-        </div>
     )
 }

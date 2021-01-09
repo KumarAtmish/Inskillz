@@ -12,11 +12,6 @@ export default function Carousel() {
            <img src={yyeftmxs} className="sliderimg"/>
            <img src={yyeftmxs} className="sliderimg"/>
            <img src={yyeftmxs} className="sliderimg"/>
-           <div className="car">
-              <h1>Knowledge is power</h1>
-              <p>Any succesfull career starts with good education</p>
-              <button type="submit" className="btn-get-started">Learn more</button>
-           </div>
         </AliceCarousel>
         
      </div>

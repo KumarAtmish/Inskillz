@@ -18,7 +18,6 @@ export default function Featured() {
                          <div className="col">
                              <div className="card h-100">
                                  <img src={Group1} className="card-img-top" alt="..." />
-
                              </div>
                          </div>
                          <div className="col">
@@ -41,7 +40,7 @@ export default function Featured() {
                          </div>
                      </div>
 
-                     <div className="row row-cols-1 row-cols-md-3 g-4 py-5">
+                     <div className="row row-cols-1 row-cols-md-3 g-4">
                          <div className="col">
                              <div className="card h-100">
                                  <img src={Group4} className="card-img-top" alt="..." />
@@ -70,7 +69,6 @@ export default function Featured() {
                              </div>
                          </div>
                      </div>
-
                  </div>
             </div>
      </div>
