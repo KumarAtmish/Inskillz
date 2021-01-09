@@ -7,8 +7,8 @@ import "./Education.css";
 
 export default function Education() {
     return (
-        <div className="card mb-3">
-            <div className="card mb-3 m-5">
+        <div className="mb-3">
+            <div className="card mb-3">
               <div className="row g-0">
                 <div className="col-md-6">
                  <img src={edu} alt="..."/>

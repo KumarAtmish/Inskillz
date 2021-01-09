@@ -34,7 +34,7 @@ export default function Courses() {
                  <img src={img2} className="card-img-top" alt="..." />
                  <div className="color">
                      <div className="card-body">
-                         <h5 className="card-title">Photography <span className="p-4"><small className="text-muted"><button className="btn-get-start">8hr 17min</button></small></span></h5>
+                         <h5 className="card-title">Photography <span className="p-3"><small className="text-muted"><button className="btn-get-start">8hr 17min</button></small></span></h5>
                          <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut  magna aliqua.</p>
                       </div>
                       <div className="card-footer">

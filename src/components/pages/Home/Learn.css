@@ -6,3 +6,13 @@
     margin: 0 auto ;
     padding: 20px;
 }
+@media screen and (max-width:424px){
+    .card-title{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:424px){
+    .text{
+        font-size: small;
+    }
+}

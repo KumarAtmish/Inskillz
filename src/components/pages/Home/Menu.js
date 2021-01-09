@@ -5,13 +5,13 @@ import logo from "./image/logo.png"
 
 export default function Menu() {
     return (
-      <header className="header">
+        <header className="header">
       <nav className="navbar navbar-expand-lg p-0">
           <div className="container">
              <Link to="/" className="navbar-brand text-uppercase font-weight-bold">
                 <img src={logo} alt="" />
              </Link>
-              <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler navbar-toggler-right"><i className="fa fa-bars"></i></button>
+             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
               
               <div id="navbarSupportedContent" className="collapse navbar-collapse">
                   <ul className="navbar-nav ml-auto">

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Client.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -20,13 +21,10 @@ export default class Client extends React.Component {
           cssEase: "linear"
           };
           return (
-            <div>
-            <div className="card m-2 p-2" style={{background:"#f1f1f1"}}>
-            <div class="card-body">
-                   <h3 class="card-title text-center">What client say</h3>   
-                  </div>
-            
-                 
+            <div className="m-2 p-2" style={{background:"#f1f1f1"}}>
+            <div className="body">
+                   <h3 className="text-center">What client say</h3>   
+                  </div>  
               <Slider {...settings}>
                 <div>
                   <img src={img1} />
@@ -56,9 +54,8 @@ export default class Client extends React.Component {
                 <img src={img1} />
                 </div>
               </Slider>
-              <div className="mx-5 px-5 py-5">
-              <p className="row justify-content-md-center text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
+              <div className="py-5">
+              <p className="text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
             </div>
           );

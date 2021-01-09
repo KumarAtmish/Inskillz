@@ -10,11 +10,11 @@ import Group from "./image/Teacher/Group.png"
 export default function Teacher() {
     return (
         <div>
-         <div class="container py-3">
+         <div class="container">
              <div class="title h1 text-center">Our Teachers</div>
          </div>
 
-         <div class="container py-3">
+         <div class="container">
              <div class="card float-left border shadow">
                  <div class="row ">
                      <div class="col-sm-5">
